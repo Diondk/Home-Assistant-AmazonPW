@@ -106,9 +106,9 @@ class AmazonPriceSensor(Entity):
 
             #Parse everthing
             NAME = ' '.join(''.join(RAW_NAME).split()) if RAW_NAME else None
-            SALE_BPRC = ' '.join(''.join(RAW_SALE_PRICE).split()) if RAW_SALE_PRICE else None
+            SALE_BPRC = ' '.join(''.join(RAW_SALE_PRICE).split()[1:]) if RAW_SALE_PRICE else None
 
-
+		
             SALE_PRICE = SALE_BPRC
 
             if page.status_code!=200:

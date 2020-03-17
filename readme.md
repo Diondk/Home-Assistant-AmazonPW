@@ -13,9 +13,9 @@ I will try to extend it with extra features but I am not a python programmer so 
 # CONFIGURATION VARIABLES
 ```
 site: site: (string) (Required) The extension of the amazon domain: E.g. nl, com, de, co.uk
-asin: (string) (Required) ASIN number of the product, can be found in the url of at the more infromation box.
-name: (string) (Optional) The name of the item, If not set, it will be parsed from the website, also name of the sensor: E.g. sensor.keyboard
-site: (string) (Optional) Overwrite the site for the current product.
+  asin: (string) (Required) ASIN number of the product, can be found in the url of at the more infromation box.
+  name: (string) (Optional) The name of the item, If not set, it will be parsed from the website, also name of the sensor: E.g. sensor.keyboard
+  site: (string) (Optional) Overwrite the site for the current product.
 ```
 
 # Example sensor
