@@ -18,7 +18,7 @@ name: (string) (Optional) The name of the item, If not set, it will be parsed fr
 site: (string) (Optional) Overwrite the site for the current product.
 ```
 
-#Example sensor
+# Example sensor
 ```yaml
 - platform: amazon_pw
   site: 'nl'
@@ -29,7 +29,7 @@ site: (string) (Optional) Overwrite the site for the current product.
       name: SSD samsung
       site: 'de'
 ```
-#TO-DO
+# TO-DO
 
 - pull the image from the amazon website
 - add to hacs
