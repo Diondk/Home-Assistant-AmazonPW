@@ -1,0 +1,9 @@
+{
+    "domain": "amazon_pw",
+    "name": "AmazonPW",
+    "documentation": "https://github.com/diondk/Home-Assistant-AmazonPW",
+    "dependencies": [],
+    "codeowners": ["@Diondk"],
+    "requirements": []
+  }
+  
