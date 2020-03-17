@@ -1,4 +1,4 @@
-# Amazon Price Watch component
+# Amazon Price Watch Sensor
 
 This is my version of the amazon price watch component officially release by [@reua](https://github.com/reua/Home-Assistant-Configuration)
 His component hasn't been updated for a while and I wanted to use it, i changed it to get it working. 
@@ -31,6 +31,6 @@ site: site: (string) (Required) The extension of the amazon domain: E.g. nl, com
 ```
 # TO-DO
 
-- pull the image from the amazon website
-- add to hacs
+- pull the product image from the amazon website.
+- add to hacs.
 - create integration, so we dont have to restart after adding a sensor.
