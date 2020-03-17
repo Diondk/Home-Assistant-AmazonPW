@@ -101,7 +101,7 @@ class AmazonPriceSensor(Entity):
             #Get all the data from Amazon webpage
             doc = html.fromstring(page.content)
             RAW_NAME = doc.xpath('//span[contains(@id,"productTitle") or contains(@id,"Title")]/text()')
-            RAW_SALE_PRICE = doc.xpath('//span[contains(@id,"priceblock_ourprice") or contains(@id,"priceblock_ourprice")]/text()')
+            RAW_SALE_PRICE = doc.xpath('//span[contains(@id,"priceBlockStrikePriceString") or contains(@id,"priceblock_ourprice")]/text()')
 
 
             #Parse everthing
