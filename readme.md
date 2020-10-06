@@ -1,3 +1,5 @@
+##THIS IS NOT BEING UPDATED ANYMORE, BECAUSE I SIMPLY DONT HAVE THE TIME FOR IT.
+
 # Amazon Price Watch Sensor
 
 This is my version of the amazon price watch component officially release by [@reua](https://github.com/reua/Home-Assistant-Configuration)
